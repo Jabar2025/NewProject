@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="9" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-23T23:51:32 IST" name="Default suite" finished-at="2026-02-23T23:52:13 IST" duration-ms="40653">
+    <groups>
+      <group name="Test">
+        <method signature="RunScript.test2()[pri:0, instance:script.RunScript@543295b0]" name="test2" class="script.RunScript"/>
+      </group> <!-- Test -->
+    </groups>
+    <test started-at="2026-02-23T23:51:32 IST" name="Default test" finished-at="2026-02-23T23:52:13 IST" duration-ms="40653">
+      <class name="script.RunScript">
+        <test-method is-config="true" signature="beforeRunSuite(org.testng.ITestContext)[pri:0, instance:script.RunScript@543295b0]" started-at="2026-02-23T23:51:32 IST" name="beforeRunSuite" finished-at="2026-02-23T23:51:32 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@29aacaf7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeRunSuite -->
+        <test-method is-config="true" signature="beforeTestMethod(org.testng.ITestContext,org.testng.ITestResult)[pri:0, instance:script.RunScript@543295b0]" started-at="2026-02-23T23:51:32 IST" name="beforeTestMethod" finished-at="2026-02-23T23:51:33 IST" duration-ms="1482" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@29aacaf7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=RunScript.test2()[pri:0, instance:script.RunScript@543295b0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method signature="test2()[pri:0, instance:script.RunScript@543295b0]" started-at="2026-02-23T23:51:33 IST" name="test2" finished-at="2026-02-23T23:52:12 IST" duration-ms="39042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="afterTestMethod(org.testng.ITestResult)[pri:0, instance:script.RunScript@543295b0]" started-at="2026-02-23T23:52:12 IST" name="afterTestMethod" finished-at="2026-02-23T23:52:13 IST" duration-ms="111" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test2 status=SUCCESS method=RunScript.test2()[pri:0, instance:script.RunScript@543295b0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestMethod -->
+        <test-method is-config="true" signature="afterRunSuite()[pri:0, instance:script.RunScript@543295b0]" started-at="2026-02-23T23:52:13 IST" name="afterRunSuite" finished-at="2026-02-23T23:52:13 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterRunSuite -->
+      </class> <!-- script.RunScript -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
