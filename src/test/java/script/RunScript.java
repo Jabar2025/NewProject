@@ -48,64 +48,6 @@ public class RunScript {
 		Playback.pageLoadWait();
 		loader.navigateToModule("/audit");
 		Playback.pageLoadWait();
-//		maintenance.settings.clickSettingsButton();
-//		maintenance.settings.clickDistrictButton();
-//		maintenance.settings.clickActionButton();
-				// rowser.NavigateToLoginScreen();
-		// Playback.pageLoadWait();
-		// login.loginScreen.Logon();
-		// Playback.pageLoadWait();
-		// loader.navigateToModule("maintenance");
-		// Playback.pageLoadWait();
-		// maintenance.settings.clickSettingsButton();
-		// maintenance.settings.clickDistrictButton();
-		// maintenance.settings.clickActionButton(
-		// rowser.NavigateToLoginScreen();
-		// Playback.pageLoadWait();
-		// login.loginScreen.Logon();
-		// Playback.pageLoadWait();
-		// loader.navigateToModule("maintenance");
-		// Playback.pageLoadWait();
-		// maintenance.settings.clickSettingsButton();
-		// maintenance.settings.clickDistrictButton();
-		// maintenance.settings.clickActionButton(
-		// rowser.NavigateToLoginScreen();
-		// Playback.pageLoadWait();
-		// login.loginScreen.Logon();
-		// Playback.pageLoadWait();
-		// loader.navigateToModule("maintenance");
-		// Playback.pageLoadWait();
-		// maintenance.settings.clickSettingsButton();
-		// maintenance.settings.clickDistrictButton();
-		// maintenance.settings.clickActionButton(
-		// rowser.NavigateToLoginScreen();
-		// Playback.pageLoadWait();
-		// login.loginScreen.Logon();
-		// Playback.pageLoadWait();
-		// loader.navigateToModule("maintenance");
-		// Playback.pageLoadWait();
-		// maintenance.settings.clickSettingsButton();
-		// maintenance.settings.clickDistrictButton();
-		// maintenance.settings.clickActionButton(
-		// rowser.NavigateToLoginScreen();
-		// Playback.pageLoadWait();
-		// login.loginScreen.Logon();
-		// Playback.pageLoadWait();
-		// loader.navigateToModule("maintenance");
-		// Playback.pageLoadWait();
-		// maintenance.settings.clickSettingsButton();
-		// maintenance.settings.clickDistrictButton();
-		// maintenance.settings.clickActionButton(
-		// rowser.NavigateToLoginScreen();
-		// Playback.pageLoadWait();
-		// login.loginScreen.Logon();
-		// Playback.pageLoadWait();
-		// loader.navigateToModule("maintenance");
-		// Playback.pageLoadWait();
-		// maintenance.settings.clickSettingsButton();
-		// maintenance.settings.clickDistrictButton();
-		// maintenance.settings.clickActionButton(
-
 	}
 	
 @Test (groups = "Test")
@@ -176,6 +118,26 @@ public void test8() throws InterruptedException {
 
 @Test (groups = "Test")
 public void test9() throws InterruptedException {
+	Browser.NavigateToLoginScreen();
+	Playback.pageLoadWait();
+	login.loginScreen.Logon();
+	Playback.pageLoadWait();
+	loader.navigateToModule("/audit");
+	Playback.pageLoadWait();
+}
+
+@Test (groups = "Test")
+public void test10() throws InterruptedException {
+	Browser.NavigateToLoginScreen();
+	Playback.pageLoadWait();
+	login.loginScreen.Logon();
+	Playback.pageLoadWait();
+	loader.navigateToModule("/audit");
+	Playback.pageLoadWait();
+}
+
+@Test (groups = "Test")
+public void test11() throws InterruptedException {
 	Browser.NavigateToLoginScreen();
 	Playback.pageLoadWait();
 	login.loginScreen.Logon();
