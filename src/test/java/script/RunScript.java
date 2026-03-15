@@ -146,7 +146,7 @@ public void test11() throws InterruptedException {
 	Playback.pageLoadWait();
 }
 @Test (groups = "Test")
-public void test12() throws InterruptedException {
+public void test21() throws InterruptedException {
 	Browser.NavigateToLoginScreen();
 	Playback.pageLoadWait();
 	login.loginScreen.Logon();
@@ -164,7 +164,8 @@ public void test13() throws InterruptedException {
 	Playback.pageLoadWait();
 }
 @Test (groups = "Test")
-public void test14() throws InterruptedException {
+
+public void test41() throws InterruptedException {ptedException {
 	Browser.NavigateToLoginScreen();
 	Playback.pageLoadWait();
 	login.loginScreen.Logon();
@@ -172,7 +173,6 @@ public void test14() throws InterruptedException {
 	loader.navigateToModule("/audit");
 	Playback.pageLoadWait();
 }
-
 	
 	@AfterMethod (groups = "Test")
 	public void afterTestMethod(ITestResult testResult) {
