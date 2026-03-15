@@ -155,7 +155,7 @@ public void test21() throws InterruptedException {
 	Playback.pageLoadWait();
 }
 @Test (groups = "Test")
-public void test31() throws InterruptedException {
+public void test13() throws InterruptedException {
 	Browser.NavigateToLoginScreen();
 	Playback.pageLoadWait();
 	login.loginScreen.Logon();
@@ -164,7 +164,8 @@ public void test31() throws InterruptedException {
 	Playback.pageLoadWait();
 }
 @Test (groups = "Test")
-public void test41() throws InterruptedException {
+
+public void test41() throws InterruptedException {ptedException {
 	Browser.NavigateToLoginScreen();
 	Playback.pageLoadWait();
 	login.loginScreen.Logon();
