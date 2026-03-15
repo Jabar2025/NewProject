@@ -145,6 +145,33 @@ public void test11() throws InterruptedException {
 	loader.navigateToModule("/audit");
 	Playback.pageLoadWait();
 }
+@Test (groups = "Test")
+public void test21() throws InterruptedException {
+	Browser.NavigateToLoginScreen();
+	Playback.pageLoadWait();
+	login.loginScreen.Logon();
+	Playback.pageLoadWait();
+	loader.navigateToModule("/audit");
+	Playback.pageLoadWait();
+}
+@Test (groups = "Test")
+public void test31() throws InterruptedException {
+	Browser.NavigateToLoginScreen();
+	Playback.pageLoadWait();
+	login.loginScreen.Logon();
+	Playback.pageLoadWait();
+	loader.navigateToModule("/audit");
+	Playback.pageLoadWait();
+}
+@Test (groups = "Test")
+public void test41() throws InterruptedException {
+	Browser.NavigateToLoginScreen();
+	Playback.pageLoadWait();
+	login.loginScreen.Logon();
+	Playback.pageLoadWait();
+	loader.navigateToModule("/audit");
+	Playback.pageLoadWait();
+}
 	
 	@AfterMethod (groups = "Test")
 	public void afterTestMethod(ITestResult testResult) {
